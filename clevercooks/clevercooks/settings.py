@@ -56,7 +56,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, 'reactclevercooks/build'),
+            os.path.join(BASE_DIR, 'cc_react/build'),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -127,5 +127,5 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'reactclevercooks/build/static'),
+    os.path.join(BASE_DIR, 'cc_react/build/static'),
  ]
